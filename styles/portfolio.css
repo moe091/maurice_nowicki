@@ -1,0 +1,60 @@
+.portfolio-row {
+    text-align: center;
+}
+
+.folio-item {
+    width: 260px;
+    height: 420px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 25px 15px 25px;
+    vertical-align: bottom;
+    padding: 5px 10px;
+    box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    background-color: #333;
+}
+.folio-left {
+    float: left;
+}
+
+.folio-right {
+    float: right;
+}
+
+.folio-item h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #cdeffa;
+    margin: 4px 0;
+    height: 2em;
+    vertical-align: bottom;
+}
+.folio-item a {
+    text-decoration: none;
+}
+.folio-item h2:hover {
+    color: #1f78a1;
+}
+
+.folio-item img {
+    width: 260px;
+    border: 1px #3a3a3a solid;
+    margin-bottom: 5px;
+    background-color: #000;
+}
+
+.folio-item p {
+    color: #dfdfdf;
+}
+
+
+
+
+
+
+
+
+
+
+
+

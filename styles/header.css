@@ -1,0 +1,44 @@
+/* ------------------------------------>>> HEADER <<<--------------------------------*/
+
+.header-img {
+    background-image: url("../assets/header.png");
+    margin: 0 auto;
+    position: relative;
+}
+.header-img img {
+    visibility: hidden;
+}
+header h1 {
+    display: inline-block;
+    position: absolute;
+    top: 2%;
+    font-size: 5em;
+    padding-left: 10%;
+    color: #ddd;
+    font-family: 'Roboto Slab', serif;
+}
+header h2 {
+    text-align: right;
+    position: absolute;
+    top: 4em;
+    font-size: 2em;
+    color: #fff;
+    width: 58%;
+    color: #eee;
+}
+header h2:nth-of-type(2) {
+    top: 6em;
+    width: 55%;
+}
+header h2:nth-of-type(3) {
+    top: 8em;
+    width: 52%;
+}
+header h2:nth-of-type(4) {
+    top: 10em;
+    width: 49%;
+}
+header h2:nth-of-type(5) {
+    top: 12em;
+    width: 46%;
+}
